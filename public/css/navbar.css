@@ -59,3 +59,21 @@
 /* .menu-item div {
     height: 60px;
 } */
+
+.img_register {
+    height: 500px;
+    width: 500px;
+}
+
+.login_form {
+    margin-top: 10%;
+}
+
+.email,
+.password {
+    background-color: #E5E5E5;
+}
+
+.login_button {
+    background-color: #3f0d0c;
+}

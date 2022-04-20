@@ -26,9 +26,11 @@ Route::get('/contact', function () {
 //     Route::get('/home', 'home');
 //     // Route::get('/home/{id}', hello(5));
 // });
-Route::get('/home/{id}', [ usercontroller::class, 'hello']);
-Route::get('/test', [ usercontroller::class, 'test']);
-
 Route::get('/login', [ usercontroller::class, 'loginnn']);
 Route::post('/login', [userController::class,'process_login']);
-Route::get('menu', 'usercontroller@getmenu');
+Route::get('/register', function () {
+    return view('register');
+});
+Route::get('/login', function () {
+    return view('login');
+});
