@@ -77,3 +77,38 @@
 .login_button {
     background-color: #3f0d0c;
 }
+
+.top_banner {
+    display: flex;
+    justify-content: center;
+}
+
+.top_banner img {
+    object-fit: cover;
+    width: 90%;
+    height: 350px;
+    margin: 100px 50px;
+}
+
+.side_banner {
+    display: flex;
+    justify-content: center;
+}
+
+.left_banner img {
+    object-fit: cover;
+    width: 700px;
+    height: 700px;
+    margin: 100px 100px;
+}
+
+.right_banner {
+    margin-left: 100p;
+}
+
+.right_banner img {
+    object-fit: cover;
+    width: 900px;
+    height: 900px;
+    margin: 0 200px;
+}

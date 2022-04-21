@@ -12,9 +12,9 @@
 
 </head>
 <body>
-    <section class="header row" id="fullmenu">
+    <div class="header row bg-danger" id="fullmenu">
         <nav class="navbar navbar-expand-lg d-flex navbarcss">
-            <div class="container-fluid col-4 menu">
+            <div class="container col-4 menu">
                 <i class="fa-solid fa-bars navbar-toggler menu-toggle" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation"></i>
                 <div class="collapse navbar-collapse  menu-item" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
@@ -31,10 +31,15 @@
                     <a class="nav-link " href=""><i class="fa-solid fa-user"></i></a>
                 </div>
         </nav>
-    </section>
+    </div>
   
 @yield('register') 
 @yield('login') 
+    <div class="row">
+        @yield('landing_page')
+    </div>
+
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 <script src="js/navbar.js"></script>
